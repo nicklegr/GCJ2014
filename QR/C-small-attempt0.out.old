@@ -15,7 +15,6 @@ c...
 ....
 ....
 ..**
-K
 Case #5:
 Impossible
 Case #6:
@@ -73,7 +72,6 @@ Case #18:
 c....
 .....
 *****
-K
 Case #19:
 Impossible
 Case #20:
@@ -81,7 +79,6 @@ c....
 .....
 .....
 .....
-K
 Case #21:
 c...
 ....
@@ -125,8 +122,6 @@ c....
 ....*
 ..***
 *****
-K
-K
 Case #31:
 Impossible
 Case #32:
@@ -182,7 +177,6 @@ Case #44:
 c
 *
 *
-K
 Case #45:
 c...*
 ....*
@@ -222,7 +216,6 @@ Case #53:
 Impossible
 Case #54:
 Impossible
-K
 Case #55:
 c..
 ...
@@ -243,7 +236,6 @@ Case #59:
 Impossible
 Case #60:
 Impossible
-K
 Case #61:
 Impossible
 Case #62:
@@ -288,14 +280,8 @@ c..
 ...
 ...
 ..*
-K
-K
 Case #76:
-c....
-.....
-.....
-....*
-..***
+Impossible
 Case #77:
 c****
 *****
@@ -303,12 +289,11 @@ Case #78:
 c.
 ..
 **
-K
 Case #79:
-c....
-.....
+c...*
 ....*
-..***
+....*
+....*
 Case #80:
 Impossible
 Case #81:
@@ -323,11 +308,7 @@ c..**
 ...**
 *****
 Case #84:
-c.**
-..**
-****
-****
-****
+Impossible
 Case #85:
 Impossible
 Case #86:
@@ -366,7 +347,6 @@ c..
 ...
 ...
 ...
-K
 Case #95:
 c..
 ...
@@ -407,10 +387,7 @@ c
 *
 *
 Case #103:
-c.***
-..***
-*****
-*****
+Impossible
 Case #104:
 Impossible
 Case #105:
@@ -515,11 +492,7 @@ c....
 *****
 *****
 Case #128:
-c.***
-..***
-*****
-*****
-*****
+Impossible
 Case #129:
 Impossible
 Case #130:
@@ -564,13 +537,12 @@ Case #140:
 c....
 .....
 ..***
-K
 Case #141:
 c...
 ....
-....
 ...*
-..**
+...*
+...*
 Case #142:
 c
 *
@@ -619,7 +591,6 @@ c.
 ..
 **
 **
-K
 Case #154:
 c..
 ...
@@ -690,13 +661,11 @@ Case #172:
 Impossible
 Case #173:
 Impossible
-K
 Case #174:
 c....
 .....
 .....
 ..***
-K
 Case #175:
 c..*
 ...*
@@ -707,7 +676,6 @@ c..
 ***
 Case #177:
 Impossible
-K
 Case #178:
 c....
 .....
@@ -726,12 +694,10 @@ c....
 .....
 .....
 ...**
-K
 Case #183:
 Impossible
 Case #184:
 c...
-K
 Case #185:
 c...
 ....
@@ -770,7 +736,6 @@ c...
 ....
 ....
 ****
-K
 Case #195:
 Impossible
 Case #196:
@@ -807,11 +772,7 @@ c*
 **
 **
 Case #204:
-c.**
-..**
-****
-****
-K
+Impossible
 Case #205:
 c..
 ...
@@ -826,7 +787,6 @@ c..**
 *****
 Case #207:
 Impossible
-K
 Case #208:
 Impossible
 Case #209:
@@ -858,13 +818,8 @@ c...
 ....
 Case #215:
 Impossible
-K
-K
 Case #216:
-c...
-....
-...*
-..**
+Impossible
 Case #217:
 c.**
 ..**

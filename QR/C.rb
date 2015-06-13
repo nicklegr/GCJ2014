@@ -71,18 +71,31 @@ def solve(r, c, m)
     return board
   end
 
-  if m > r*c - c * 2
+  if (m > r*c - c * 2) && (m / c >= 1)# && (r*c - c * 2 >= 1)
+ppd "A"
     # 縦横複合
-    rows = m / c - 1
+    rows = m / c
     if rows <= 0
+ppd "B"
       return nil
     end
 
     rest_mines = m - (rows * c)
+ppd rest_mines
     rest_rows = r - rows
+ppd rest_rows
     rest2 = rest_rows - (rest_mines % rest_rows)
+ppd rest2
     # return nil if rest2 == 1 && rest_rows <= 3
-    return nil if rest_rows <= 2
+
+    if rest_rows == 2 && rest2 == 2
+      # OK
+    else
+      if rest_rows <= 2
+        # puts "C"
+        return nil 
+      end
+    end
 
     board[0][0] = 'c'
 
@@ -136,8 +149,15 @@ def solve(r, c, m)
   mod = m % c
 
   if c - mod == 1
-    return nil if m <= c
-    return nil if c == 2
+    if m <= c
+      # puts "K"
+      # return nil
+    end
+
+    if c == 2
+      # puts "L"
+      return nil
+    end
 
     mine_lines = (m.to_f / c).ceil
     rest = r - mine_lines
@@ -189,7 +209,7 @@ cases = readline().to_i
   # readline().split
 
   r, c, m = ris
-pp r,c,m
+#ppd r,c,m
   board1 = solve(r, c, m)
   board2 = solve(c, r, m)
 
